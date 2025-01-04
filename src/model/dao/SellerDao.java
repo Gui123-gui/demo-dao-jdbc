@@ -6,6 +6,8 @@ import model.entities.Seller;
 
 public interface SellerDao {
 
+//	//	Interface que define quais serão os métodos e o que eles retornam da classe Seller dentro do banco de dados.
+	
 	void insert(Seller obj);
 	void update(Seller obj);
 	void deleteById(Integer id);
